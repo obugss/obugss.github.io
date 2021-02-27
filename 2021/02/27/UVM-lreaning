@@ -20,17 +20,20 @@
     var CONFIG = {"hostname":"sifublog.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="一个无限好奇心的学习者">
-<meta property="og:type" content="website">
-<meta property="og:title" content="斯夫博客">
-<meta property="og:url" content="https://sifublog.com/archives/index.html">
+  <meta name="description" content="UVM学习大概分成两个部分，一个是语言system verilog，一个UVM库，也就是UVM在system verilog上定义的一堆类，大白话说就是UVM验证方法。system verilog只是基础语言，在它上面可以创建VMM&#x2F;UVM&#x2F;OVM各种验证方法，现在比较完备的验证方法就是UVM，自动化高，面向对象的编程特点。 首先掌握system verilog语言，如果你是丛硬件或者FPGA转过">
+<meta property="og:type" content="article">
+<meta property="og:title" content="UVM学习">
+<meta property="og:url" content="https://sifublog.com/2021/02/27/UVM-lreaning">
 <meta property="og:site_name" content="斯夫博客">
-<meta property="og:description" content="一个无限好奇心的学习者">
+<meta property="og:description" content="UVM学习大概分成两个部分，一个是语言system verilog，一个UVM库，也就是UVM在system verilog上定义的一堆类，大白话说就是UVM验证方法。system verilog只是基础语言，在它上面可以创建VMM&#x2F;UVM&#x2F;OVM各种验证方法，现在比较完备的验证方法就是UVM，自动化高，面向对象的编程特点。 首先掌握system verilog语言，如果你是丛硬件或者FPGA转过">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-02-27T02:38:36.000Z">
+<meta property="article:modified_time" content="2021-02-27T02:59:38.486Z">
 <meta property="article:author" content="斯夫">
+<meta property="article:tag" content="UVM">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://sifublog.com/archives/">
+<link rel="canonical" href="https://sifublog.com/2021/02/27/UVM-lreaning">
 
 
 <script id="page-configurations">
@@ -38,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | 斯夫博客</title>
+  <title>UVM学习 | 斯夫博客</title>
   
 
 
@@ -159,50 +162,76 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 1 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://sifublog.com/2021/02/27/UVM-lreaning">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="斯夫">
+      <meta itemprop="description" content="一个无限好奇心的学习者">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="斯夫博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          UVM学习
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-02-27 10:38:36 / 修改时间：10:59:38" itemprop="dateCreated datePublished" datetime="2021-02-27T10:38:36+08:00">2021-02-27</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <p>UVM学习大概分成两个部分，一个是语言system verilog，一个UVM库，也就是UVM在system verilog上定义的一堆类，大白话说就是UVM验证方法。system verilog只是基础语言，在它上面可以创建VMM/UVM/OVM各种验证方法，现在比较完备的验证方法就是UVM，自动化高，面向对象的编程特点。</p>
+<p>首先掌握system verilog语言，如果你是丛硬件或者FPGA转过来了，还的稍微费点功夫，因为system verilog是面向对象（OOP）的语言，不过一天啃点慢慢就懂了。推荐《System Verilog验证—测试平台编写指南》以及它的英文版SystemVerilog for Verification—A Guide to Learning the Testbench Language Features，因为有的地方翻译不好，看中文很困惑，看看英文描述就明白了。当然如果你的英文很好，强烈建议直接读英文。</p>
+<p>第二步UVM学习，有了前面的基础，学习UVM就会简单点，推荐的书籍《UVM实战》以及《芯片验证漫游指南》，了解UVM运行机制。这两本书都有实例，一定要把实例都做一遍。</p>
+<p>第三步如果你边学习边有验证的工作任务，那就入门的更快了，因为一切语言只有用起来是最快的；如果没有任务，有前人完成的验证工程也可以，自己尝试重新跑起来，关注log文件的输出，以及最后的波形文件，了解UVM工作机制。如果是其它行业，真是苦了你了，需要极强的求知欲，搭建环境，开始学习，如果能找到芯片验证中的一两个工程，那就更好了。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-02-27T10:38:36+08:00"
-              content="2021-02-27">
-          02-27
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/UVM/" rel="tag"># UVM</a>
+          </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/02/27/UVM-lreaning" itemprop="url">
-            <span itemprop="name">UVM学习</span>
-          </a>
-      </div>
+        
 
-    </header>
+
+        
+      </footer>
+    
   </article>
-
-
-    </div>
-  </div>
   
   
-  
-
   
 
 

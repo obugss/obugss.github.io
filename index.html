@@ -126,14 +126,14 @@
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
 
   </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
-
-  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a>
 
   </li>
   </ul>
@@ -165,7 +165,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://sifublog.com/2021/02/25/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://sifublog.com/2021/02/27/UVM-lreaning">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -179,7 +179,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/02/25/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/2021/02/27/UVM-lreaning" class="post-title-link" itemprop="url">UVM学习</a>
         </h2>
 
         <div class="post-meta">
@@ -188,16 +188,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-02-25 16:47:54" itemprop="dateCreated datePublished" datetime="2021-02-25T16:47:54+08:00">2021-02-25</time>
+              <time title="创建时间：2021-02-27 10:38:36 / 修改时间：10:59:38" itemprop="dateCreated datePublished" datetime="2021-02-27T10:38:36+08:00">2021-02-27</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-02-24 16:48:18" itemprop="dateModified" datetime="2021-02-24T16:48:18+08:00">2021-02-24</time>
-              </span>
 
           
 
@@ -210,19 +204,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+          <p>UVM学习大概分成两个部分，一个是语言system verilog，一个UVM库，也就是UVM在system verilog上定义的一堆类，大白话说就是UVM验证方法。system verilog只是基础语言，在它上面可以创建VMM/UVM/OVM各种验证方法，现在比较完备的验证方法就是UVM，自动化高，面向对象的编程特点。</p>
+<p>首先掌握system verilog语言，如果你是丛硬件或者FPGA转过来了，还的稍微费点功夫，因为system verilog是面向对象（OOP）的语言，不过一天啃点慢慢就懂了。推荐《System Verilog验证—测试平台编写指南》以及它的英文版SystemVerilog for Verification—A Guide to Learning the Testbench Language Features，因为有的地方翻译不好，看中文很困惑，看看英文描述就明白了。当然如果你的英文很好，强烈建议直接读英文。</p>
+<p>第二步UVM学习，有了前面的基础，学习UVM就会简单点，推荐的书籍《UVM实战》以及《芯片验证漫游指南》，了解UVM运行机制。这两本书都有实例，一定要把实例都做一遍。</p>
+<p>第三步如果你边学习边有验证的工作任务，那就入门的更快了，因为一切语言只有用起来是最快的；如果没有任务，有前人完成的验证工程也可以，自己尝试重新跑起来，关注log文件的输出，以及最后的波形文件，了解UVM工作机制。如果是其它行业，真是苦了你了，需要极强的求知欲，搭建环境，开始学习，如果能找到芯片验证中的一两个工程，那就更好了。</p>
 
       
     </div>
@@ -309,6 +294,10 @@
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
       </div>
   </nav>
 </div>
